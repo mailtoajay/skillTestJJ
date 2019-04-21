@@ -73,6 +73,11 @@ body{
 /****************************************
 Custom Bootstrap 5 column css - begins
 ****************************************/
+
+.col-md-2dot4 {
+    float: left;
+}
+
 .col-2dot4,
 .col-sm-2dot4,
 .col-md-2dot4,
@@ -126,3 +131,47 @@ Custom Bootstrap 5 column css - begins
 /************************************
 Custom Bootstrap 5 column css - ends
 ************************************/
+
+.whiteBox {
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.whiteBox h6 {text-align: justify;text-transform: uppercase;color:#b90783;font-weight: bold;font-size: .9rem;letter-spacing: -1px;}
+.whiteBox p {font-size: .7rem;color:#666;}
+.col-md-2dot4.ffp-img {padding: 0;}
+.col-md-2dot4.ffp-img img {
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+}
+.bottom-icon-box{
+background-color: #645896;
+padding: 3rem 4rem;
+}
+
+.img-center{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
