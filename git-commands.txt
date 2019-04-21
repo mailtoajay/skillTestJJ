@@ -1,0 +1,44 @@
+
+GIT Project:
+https://github.com/mailtoajay/html.git
+
+List of GIT commands:
+*********************
+
+1) git clone
+2) git status
+3) git add filename or git add .
+4) git commit  -m "message here"
+5) git push
+6) git pull
+7) git branch  / git branch newBranchName
+8) git checkout newBranchName  or git checkout -b newBranchName
+9) git merge master
+10) git push origin(main branch where we forked from) test(fork branch name)
+
+
+
+https://stackoverflow.com/questions/24713112/problem-is-my-github-page-do-not-update-its-content/47955695
+
+https://gist.github.com/mandiwise/44d1edce18f2ffb14f63
+// Reference: http://lea.verou.me/2011/10/easily-keep-gh-pages-in-sync-with-master/
+
+$ git add .
+$ git status // to see what changes are going to be commited
+$ git commit -m 'Some descriptive commit message'
+$ git push origin master
+
+$ git checkout gh-pages // go to the gh-pages branch
+$ git rebase master // bring gh-pages up to date with master
+$ git push origin gh-pages // commit the changes
+$ git checkout master // return to the master branch
+
+
+
+
+
+
+
+
+
+
