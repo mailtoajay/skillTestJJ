@@ -154,16 +154,31 @@ Custom Bootstrap 5 column css - ends
 }
 .bottom-icon-box{
 background-color: #645896;
-padding: 3rem 4rem;
+padding: 1.05rem 4rem;
+margin-right: -3rem;
 }
 
-.img-center{
-    
+.box-margin-adjust{
+margin-right: -3rem;
+background-color:#645896;
 }
 
+.padding-adjustment{
+    padding: 0 3rem; 
+}
 
+.bottom-icon-box h3{
+    color:#fff;
+}
 
+.bottom-icon-box p{
+    color:#fff;
+    font-size: .8rem;
+}
 
+.border-right{
+    border-right:1px solid #fff;
+}
 
 
 
